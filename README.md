@@ -3,4 +3,5 @@
    Put files from Botstrap in apropriate folders
 3. Make sure we have jQuery --> https://jquery.com/download/
 4. Get font awesome https://fontawesome.com/how-to-use/on-the-desktop/setup/getting-started
-5. Create index.html file with theme you want from here https://getbootstrap.com/docs/3.3/examples/starter-template/
+5. Create index.html file with theme you want from here https://getbootstrap.com/docs/3.3/examples/starter-template/maxmaxITIL
+6. https://codepen.io/Mango_Design/full/ONWyRN - how Bootstrap layout works
