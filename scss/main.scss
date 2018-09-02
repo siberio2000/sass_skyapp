@@ -8,10 +8,11 @@ Version: 0.0.1
 
 /*  Base - Base styles, variables, mixins, etc  */
 
-@import 'base/_base.scss';
-@import 'base/_mixins.scss';
-@import 'base/_normilize.scss';
 @import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_base.scss';
+@import 'base/_normilize.scss';
+
 
 /*  LAYOUTS - Page layouts styles  */
 
@@ -24,5 +25,5 @@ Version: 0.0.1
 @import 'modules/_blocks.scss';
 @import 'modules/_buttons.scss';
 @import 'modules/_components.scss';
-@import 'modules/_section.scss';
+@import 'modules/_sections.scss';
 @import 'modules/_typography.scss';
