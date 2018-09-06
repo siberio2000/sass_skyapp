@@ -1,0 +1,33 @@
+/* Searchbox */
+
+.search {
+    width: 100%;
+
+    h3 {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    input[type="search"] {
+        border: 0;
+        height: 50px;
+        width: 80%;
+        border: 2px solid $primary-color;
+        font-size: 80px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    button{
+        border: 0;
+        background: none;
+        padding: 0;
+        vertical-align: top;
+        margin-left: -4px;
+    }
+
+    input[placeholder="Search our website"] {
+        font-size: 15px;
+    }
+}
+
