@@ -68,18 +68,56 @@
 
 /* headings */
 
-.heading-primary {
+.heading-primary{
+	color:$primary-color;
+}
+
+.heading-primary-a{
+	@extend .heading-primary;
+	@include add-border(2px, $primary-color, bottom);
+}
+
+.heading-secondary{
+	color:$secondary-color;
+}
+
+.heading-secondary-a{
+	@extend .heading-secondary;
+	@include add-border(2px, $secondary-color, bottom);
+}
+
+.heading-light{
+	color:$light-color;
+}
+
+.heading-light-a{
+	@extend .heading-light;
+	@include add-border(2px, $light-color, bottom);
+}
+
+.heading-dark{
+	color:$dark-color;
+}
+
+.heading-dark-a{
+	@extend .heading-dark;
+	@include add-border(2px, $dark-color, bottom);
+}
+
+/* Emphasis text */
+
+.em-primary {
     color: $primary-color;
 }
 
-.secondary-primary {
+.em-secondary {
     color: $secondary-color;
 }
 
-.light-primary {
-    color: $light-color;
+.em-dark {
+    color: $dark-color;
 }
 
-.dark-primary {
-    color: $dark-color;
+.em-light {
+    color: $light-color;
 }
