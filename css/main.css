@@ -89,6 +89,37 @@ h1, h2, h3, h4, h5 {
   padding: 90px 0 30px 0;
 }
 
+/* line 22, ../scss/base/_normilize.scss */
+.img-sm {
+  padding: 90px 0 30px 0;
+}
+
+/* Image sizes */
+/* line 29, ../scss/base/_normilize.scss */
+.img-xsm {
+  width: 100px;
+}
+
+/* line 33, ../scss/base/_normilize.scss */
+.img-sm {
+  width: 200px;
+}
+
+/* line 37, ../scss/base/_normilize.scss */
+.img-lg {
+  width: 400px;
+}
+
+/* line 41, ../scss/base/_normilize.scss */
+.img-xlg {
+  width: 700px;
+}
+
+/* line 45, ../scss/base/_normilize.scss */
+.clearfix {
+  clear: both;
+}
+
 /*  LAYOUTS - Page layouts styles  */
 /*  Footer */
 /* line 4, ../scss/layouts/_footer.scss */
@@ -142,6 +173,61 @@ h1, h2, h3, h4, h5 {
   color: #fff !important;
 }
 
+/*  Blog */
+/* line 3, ../scss/layouts/_blog.scss */
+.blog-post {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  padding: 15px;
+}
+/* line 8, ../scss/layouts/_blog.scss */
+.blog-post h2 {
+  margin-top: 5px !important;
+}
+
+/* line 13, ../scss/layouts/_blog.scss */
+.blog-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 18, ../scss/layouts/_blog.scss */
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  /* line 2, ../scss/layouts/_mobile.scss */
+  .search {
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* line 7, ../scss/layouts/_mobile.scss */
+  .device {
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+
+  /* line 13, ../scss/layouts/_mobile.scss */
+  .device-small {
+    margin-bottom: 20px !important;
+  }
+
+  /* line 18, ../scss/layouts/_mobile.scss */
+  .footer-main ul {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* line 23, ../scss/layouts/_mobile.scss */
+  .footer-main h4 {
+    text-align: center;
+  }
+}
 /*  MODULES - Individual site components  */
 /* Text Blocks */
 /* line 4, ../scss/modules/_blocks.scss */
@@ -383,55 +469,79 @@ section {
 .list-feature li {
   line-height: 3.6em;
   border-bottom: 1px solid #cccccc;
+  overflow: auto;
 }
-/* line 18, ../scss/modules/_typography.scss */
+/* line 19, ../scss/modules/_typography.scss */
 .list-feature li:last-child {
   border: 0;
 }
-/* line 22, ../scss/modules/_typography.scss */
+/* line 23, ../scss/modules/_typography.scss */
 .list-feature span {
   vertical-align: top;
   padding-top: 9px;
   font-size: 120%;
 }
-/* line 28, ../scss/modules/_typography.scss */
+/* line 29, ../scss/modules/_typography.scss */
 .list-feature i {
   margin-top: -9px;
   margin-right: 5px;
 }
 
+/* line 35, ../scss/modules/_typography.scss */
+.list-comments {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 40, ../scss/modules/_typography.scss */
+.list-comments li {
+  padding: 10px 0 5px 0;
+  border-bottom: 1px solid #cccccc;
+  overflow: auto !important;
+}
+
+/* line 46, ../scss/modules/_typography.scss */
+.list-comments li:last-child {
+  border: 0;
+}
+
+/* line 50, ../scss/modules/_typography.scss */
+.list-comments img {
+  width: 100px;
+}
+
 /* Icons */
-/* line 37, ../scss/modules/_typography.scss */
+/* line 59, ../scss/modules/_typography.scss */
 .fa-2 {
   font-size: 18px;
 }
 
-/* line 41, ../scss/modules/_typography.scss */
+/* line 63, ../scss/modules/_typography.scss */
 .fa-3 {
   font-size: 24px;
 }
 
-/* line 45, ../scss/modules/_typography.scss */
+/* line 67, ../scss/modules/_typography.scss */
 .fa-4 {
   font-size: 27px;
 }
 
-/* line 49, ../scss/modules/_typography.scss */
+/* line 71, ../scss/modules/_typography.scss */
 .fa-5 {
   font-size: 35px;
 }
 
-/* line 53, ../scss/modules/_typography.scss */
+/* line 75, ../scss/modules/_typography.scss */
 .fa-6 {
   font-size: 40px;
 }
 
-/* line 57, ../scss/modules/_typography.scss */
+/* line 79, ../scss/modules/_typography.scss */
 .fa-primary {
   color: #00aff0;
 }
 
-/* line 61, ../scss/modules/_typography.scss */
+/* line 83, ../scss/modules/_typography.scss */
 .fa-border {
   border: 1px solid #00aff0;
   -moz-border-radius: 5px;
@@ -443,63 +553,63 @@ section {
 }
 
 /* headings */
-/* line 71, ../scss/modules/_typography.scss */
+/* line 93, ../scss/modules/_typography.scss */
 .heading-primary, .heading-primary-a {
   color: #00aff0;
 }
 
-/* line 75, ../scss/modules/_typography.scss */
+/* line 97, ../scss/modules/_typography.scss */
 .heading-primary-a {
   border-bottom: 2px solid #00aff0;
 }
 
-/* line 80, ../scss/modules/_typography.scss */
+/* line 102, ../scss/modules/_typography.scss */
 .heading-secondary, .heading-secondary-a {
   color: #7fba00;
 }
 
-/* line 84, ../scss/modules/_typography.scss */
+/* line 106, ../scss/modules/_typography.scss */
 .heading-secondary-a {
   border-bottom: 2px solid #7fba00;
 }
 
-/* line 89, ../scss/modules/_typography.scss */
+/* line 111, ../scss/modules/_typography.scss */
 .heading-light, .heading-light-a {
   color: #e4eef2;
 }
 
-/* line 93, ../scss/modules/_typography.scss */
+/* line 115, ../scss/modules/_typography.scss */
 .heading-light-a {
   border-bottom: 2px solid #e4eef2;
 }
 
-/* line 98, ../scss/modules/_typography.scss */
+/* line 120, ../scss/modules/_typography.scss */
 .heading-dark, .heading-dark-a {
   color: #333333;
 }
 
-/* line 102, ../scss/modules/_typography.scss */
+/* line 124, ../scss/modules/_typography.scss */
 .heading-dark-a {
   border-bottom: 2px solid #333333;
 }
 
 /* Emphasis text */
-/* line 109, ../scss/modules/_typography.scss */
+/* line 131, ../scss/modules/_typography.scss */
 .em-primary {
   color: #00aff0;
 }
 
-/* line 113, ../scss/modules/_typography.scss */
+/* line 135, ../scss/modules/_typography.scss */
 .em-secondary {
   color: #7fba00;
 }
 
-/* line 117, ../scss/modules/_typography.scss */
+/* line 139, ../scss/modules/_typography.scss */
 .em-dark {
   color: #333333;
 }
 
-/* line 121, ../scss/modules/_typography.scss */
+/* line 143, ../scss/modules/_typography.scss */
 .em-light {
   color: #e4eef2;
 }

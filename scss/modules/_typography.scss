@@ -13,6 +13,7 @@
     li {
         line-height: 3.6em;
         @include add-border (1px, #cccccc, bottom);
+        overflow: auto;
     }
 
     li:last-child {
@@ -28,9 +29,30 @@
     i {
         margin-top: -9px;
         margin-right: 5px;
-
     }
 }
+
+.list-comments {
+    margin: 0;
+    padding: 0;
+}
+
+.list-comments li {
+    padding: 10px 0 5px 0;
+    @include add-border (1px, #cccccc, bottom);
+    overflow: auto !important;
+}
+
+.list-comments li:last-child {
+    border: 0;
+}
+
+.list-comments img{
+	width:100px;
+}
+
+
+
 
 /* Icons */
 
