@@ -63,6 +63,16 @@ img.device-small {
   margin-bottom: -30px;
 }
 
+/* line 45, ../scss/base/_base.scss */
+.post-meta i {
+  margin: 5px;
+}
+
+/* line 49, ../scss/base/_base.scss */
+.block i, .block-primary i, .block-secondary i, .block-light i, .block-dark i {
+  margin: 5px;
+}
+
 /* line 1, ../scss/base/_normilize.scss */
 h1, h2, h3, h4, h5 {
   margin-top: 0;
